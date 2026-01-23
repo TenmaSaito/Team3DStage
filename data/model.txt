@@ -18,7 +18,7 @@ TEXTURE_FILENAME = data/TEXTURE/sky000.jpg			# [0]ãÛ
 TEXTURE_FILENAME = data/TEXTURE/mountain000.png		# [1]éR
 TEXTURE_FILENAME = data/TEXTURE/field101.jpg		# [2]ínñ ÉåÉìÉK
 TEXTURE_FILENAME = data/TEXTURE/river000.jpg		# [3]äC
-TEXTURE_FILENAME = data/TEXTURE/field102.jpg		# [4]ï«
+TEXTURE_FILENAME = data/TEXTURE/wall003.jpg			# [4]ï«
 
 
 #------------------------------------------------------------------------------
@@ -29,22 +29,22 @@ NUM_MODEL = 16
 #------------------------------------------------------------------------------
 # ÉÇÉfÉãÉtÉ@ÉCÉãñº
 #------------------------------------------------------------------------------
-MODEL_FILENAME = data/XFiles/terrain/terrain04.x		# [0]ínå`x4î{
-MODEL_FILENAME = data/XFiles/Building/churchX4.x		# [1]ã≥âÔx0.4î{
-MODEL_FILENAME = data/XFiles/Building/ClockTowerX13.x	# [2]éûåvë‰x0.13î{
-MODEL_FILENAME = data/XFiles/Building/Station.x			# [3]âwx0.4î{
-MODEL_FILENAME = data/XFiles/Building/port/fence.x		# [4]çÚ
-MODEL_FILENAME = data/XFiles/Building/port/sanbashi.x	# [5]éVã¥
-MODEL_FILENAME = data/XFiles/Building/port/tomariba.x	# [6]Ç∆Ç‹ÇËèÍ
-MODEL_FILENAME = data/XFiles/Building//bridge04.x		# [7]ã¥x4î{
-MODEL_FILENAME = data/XFiles/Building//kadanX10.x		# [8]â‘ídx10î{
-MODEL_FILENAME = data/XFiles/Objects//airship.x			# [9]îÚçsëD
-MODEL_FILENAME = data/XFiles/Building//benchiX8.x		# [10]ÉxÉìÉ`x8î{
-MODEL_FILENAME = data/XFiles/Building//hunsuiX7.x		# [11]ï¨êÖx7î{
-MODEL_FILENAME = data/XFiles/Building//gaitouX8.x		# [12]äXì™x8î{
-MODEL_FILENAME = data/XFiles/Building//factoryX05.x		# [13]çHèÍx0.5î{
-MODEL_FILENAME = data/XFiles/Building//BoxX04.x			# [14]âºx0.4î{
-MODEL_FILENAME = data/XFiles/Building//Box2X04.x		# [15]ï÷óòâÆ(âº)x0.4î{
+MODEL_FILENAME = data/MODEL/Terrain/Terrain.x			# [0]ínå`
+MODEL_FILENAME = data/MODEL/Building/Church.x			# [1]ã≥âÔ
+MODEL_FILENAME = data/MODEL/Building/ClockTower.x		# [2]éûåvë‰
+MODEL_FILENAME = data/MODEL/Building/Station.x			# [3]âw
+MODEL_FILENAME = data/MODEL/Building/port/fence.x		# [4]çÚ
+MODEL_FILENAME = data/MODEL/Building/port/sanbashi.x	# [5]éVã¥
+MODEL_FILENAME = data/MODEL/Building/port/tomariba.x	# [6]Ç∆Ç‹ÇËèÍ
+MODEL_FILENAME = data/MODEL/Building//bridge.x			# [7]ã¥
+MODEL_FILENAME = data/MODEL/Building//kadan.x			# [8]â‘íd
+MODEL_FILENAME = data/MODEL/Objects//Airship.x			# [9]îÚçsëD
+MODEL_FILENAME = data/MODEL/Building//benchi.x			# [10]ÉxÉìÉ`
+MODEL_FILENAME = data/MODEL/Building//hunsui.x			# [11]ï¨êÖ
+MODEL_FILENAME = data/MODEL/Building//gaitou.x			# [12]äXì™
+MODEL_FILENAME = data/MODEL/Building//factory.x			# [13]çHèÍ
+MODEL_FILENAME = data/MODEL/Building//Box.x				# [14]âº
+MODEL_FILENAME = data/MODEL/Building//Box2.x			# [15]ï÷óòâÆ(âº)
 
 
 #------------------------------------------------------------------------------

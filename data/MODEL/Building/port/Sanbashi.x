@@ -649,7 +649,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.000000;0.000000;0.000000;;
    TextureFilename {
-    "data\\XFiles\\TEXTURE\\wood.jpg";
+    "data\\TEXTURE\\wood000.jpg";
    }
   }
   Material {
@@ -658,7 +658,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.000000;0.000000;0.000000;;
    TextureFilename {
-    "data\\XFiles\\TEXTURE\\wood (2).jpg";
+    "data\\TEXTURE\\wood001.jpg";
    }
   }
  }

@@ -203,7 +203,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.000000;0.000000;0.000000;;
    TextureFilename {
-    "モデルビューワ Ver.3.0\\data\\XFiles\\TEXTURE\\sea.jpeg";
+    "data\\TEXTURE\\sea000.jpg";
    }
   }
   Material {
@@ -212,7 +212,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.000000;0.000000;0.000000;;
    TextureFilename {
-    "モデルビューワ Ver.3.0\\data\\XFiles\\TEXTURE\\brick.jpg";
+    "data\\TEXTURE\\brickwall.jpg";
    }
   }
  }

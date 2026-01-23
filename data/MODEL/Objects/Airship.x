@@ -1376,7 +1376,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.000000;0.000000;0.000000;;
    TextureFilename {
-    "XFiles\\TEXTURE\\fan.png";
+    "data\\TEXTURE\\fan.png";
    }
   }
   Material {

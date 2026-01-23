@@ -9095,7 +9095,7 @@ Mesh {
    0.310000;0.310000;0.310000;;
    0.000000;0.000000;0.000000;;
    TextureFilename {
-    "data\\XFiles\\TEXTURE\\metal02.jpg";
+    "data\\TEXTURE\\metal02.jpg";
    }
   }
  }

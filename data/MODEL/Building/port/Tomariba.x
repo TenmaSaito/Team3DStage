@@ -1141,7 +1141,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
    0.000000;0.000000;0.000000;;
    TextureFilename {
-    "data\\XFiles\\TEXTURE\\asfa.jpg";
+    "data\\TEXTURE\\asfa.jpg";
    }
   }
   Material {
