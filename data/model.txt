@@ -367,7 +367,7 @@ END_MODELSET
 
 MODELSET
 	TYPE = 18	# [18]ÉLÉÉÉâ
-	POS = 1700 100 600
+	POS = 0 0 0
 	ROT = 0 0 0
 	SHADOW = 0
 END_MODELSET
@@ -460,6 +460,287 @@ MODELSET
 END_MODELSET
 #---------------------------------------
 
+#---äXìî------------------------------------
+MODELSET
+	TYPE = 12	# [12]äXìî
+	POS = 330 100 610
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 12	# [12]äXìî
+	POS = 470 100 610
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+#---------------------------------------
+
+#---ã≥âÔãﬂÇ≠ÇÃâ∆------------------------------------
+MODELSET
+	TYPE = 16	# [16]â∆0
+	POS = 2025 100 250
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+#---------------------------------------
+
+#---â∆------------------------------------
+MODELSET
+	TYPE = 16	# [16]â∆0
+	POS = 2025 100 -29
+	ROT = 0 180 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 17	# [17]â∆1
+	POS = 1990 100 -83
+	ROT = 0 90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16	# [16]â∆0
+	POS = 1990 100 -174
+	ROT = 0 90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16	# [16]â∆0
+	POS = 1990 100 -297
+	ROT = 0 90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 17	# [17]â∆1
+	POS = 1990 100 -385
+	ROT = 0 90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16	# [16]â∆0
+	POS = 2025 100 -441
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 17	# [17]â∆1
+	POS = 2060 100 -84
+	ROT = 0 -90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16	# [16]â∆0
+	POS = 2060 100 -172
+	ROT = 0 -90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16	# [16]â∆0
+	POS = 2060 100 -297
+	ROT = 0 -90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 17	# [17]â∆1
+	POS = 2060 100 -387
+	ROT = 0 -90 0
+	SHADOW = 0
+END_MODELSET
+#---------------------------------------
+
+#---â∆------------------------------------
+MODELSET
+	TYPE = 17	# [17]â∆1
+	POS = 525 100 670
+	ROT = 0 90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 17	# [17]â∆1
+	POS = 525 100 610
+	ROT = 0 90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 17	# [17]â∆1
+	POS = 525 100 550
+	ROT = 0 90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 8	# [8]â‘íd
+	POS = 490 100 680
+	ROT = 0 90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 10	# [10]ÉxÉìÉ`
+	POS = 495 100 560
+	ROT = 0 90 0
+	SHADOW = 0
+END_MODELSET
+#--------------------------
+MODELSET
+	TYPE = 16	# [16]â∆0
+	POS = 610 100 674
+	ROT = 0 180 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 17	# [17]â∆1
+	POS = 698 100 675
+	ROT = 0 180 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16	# [16]â∆0
+	POS = 785 100 674
+	ROT = 0 180 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 8	# [8]â‘íd
+	POS = 516 100 710
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 8	# [8]â‘íd
+	POS = 546 100 710
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 8	# [8]â‘íd
+	POS = 710 100 710
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 8	# [8]â‘íd
+	POS = 849 100 710
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 8	# [8]â‘íd
+	POS = 879 100 710
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+#--------------------------
+MODELSET
+	TYPE = 16	# [16]â∆0
+	POS = 610 100 544
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 17	# [17]â∆1
+	POS = 695 100 543
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16	# [16]â∆0
+	POS = 785 100 544
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 8	# [8]â‘íd
+	POS = 516 100 508
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 8	# [8]â‘íd
+	POS = 546 100 508
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 8	# [8]â‘íd
+	POS = 685 100 508
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 8	# [8]â‘íd
+	POS = 849 100 508
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 8	# [8]â‘íd
+	POS = 879 100 508
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+#--------------------------
+MODELSET
+	TYPE = 17	# [17]â∆1
+	POS = 870 100 668
+	ROT = 0 -90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 17	# [17]â∆1
+	POS = 870 100 608
+	ROT = 0 -90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 17	# [17]â∆1
+	POS = 870 100 548
+	ROT = 0 -90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 8	# [8]â‘íd
+	POS = 905 100 540
+	ROT = 0 -90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 10	# [10]ÉxÉìÉ`
+	POS = 900 100 660
+	ROT = 0 -90 0
+	SHADOW = 0
+END_MODELSET
+#---------------------------------------
+
 #---çLèÍ------------------------------------
 MODELSET
 	TYPE = 11	# [11]ï¨êÖ
@@ -524,7 +805,6 @@ MODELSET
 	SHADOW = 0
 END_MODELSET
 #---------------------------------------
-
 
 #------------------------------------------------------------------------------
 # ÉrÉãÉ{Å[ÉhîzíuèÓïÒ

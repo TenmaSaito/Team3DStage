@@ -14,13 +14,13 @@ NUM_MODEL = 7
 #------------------------------------------------------------------------------
 # モデルファイル名
 #------------------------------------------------------------------------------
-MODEL_FILENAME = data/MODEL/Mouse/00_body.x			# [0]体
-MODEL_FILENAME = data/MODEL/Mouse/01_head.x			# [1]頭
-MODEL_FILENAME = data/MODEL/Mouse/02_front_legsL.x	# [2]前足L
-MODEL_FILENAME = data/MODEL/Mouse/03_front_legsR.x	# [3]前足R
-MODEL_FILENAME = data/MODEL/Mouse/04_hind_legsL.x		# [4]後ろ足L
-MODEL_FILENAME = data/MODEL/Mouse/05_hind_legsR.x		# [5]後ろ足R
-MODEL_FILENAME = data/MODEL/Mouse/06_tail.x			# [6]尻尾
+MODEL_FILENAME = data/MODEL/mouse_xFile/00_body.x			# [0]体
+MODEL_FILENAME = data/MODEL/mouse_xFile/01_head.x			# [1]頭
+MODEL_FILENAME = data/MODEL/mouse_xFile/02_front_legsL.x	# [2]前足L
+MODEL_FILENAME = data/MODEL/mouse_xFile/03_front_legsR.x	# [3]前足R
+MODEL_FILENAME = data/MODEL/mouse_xFile/04_hind_legsL.x		# [4]後ろ足L
+MODEL_FILENAME = data/MODEL/mouse_xFile/05_hind_legsR.x		# [5]後ろ足R
+MODEL_FILENAME = data/MODEL/mouse_xFile/06_tail.x			# [6]尻尾
 
 #------------------------------------------------------------------------------
 # キャラクター情報
