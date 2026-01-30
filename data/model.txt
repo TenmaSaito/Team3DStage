@@ -98,7 +98,7 @@ END_MOUNTAINSET
 # ínñ 
 #--------------------------------------
 FIELDSET
-	TEXTYPE = 2			# ÉeÉNÉXÉ`ÉÉÇÃéÌóﬁ
+	TEXTYPE = 2#6			# ÉeÉNÉXÉ`ÉÉÇÃéÌóﬁ
 	POS = 1300 100 -300	# à íu
 	ROT = 0 0 0			# å¸Ç´
 	BLOCK = 10 13		# ï™äÑêî(Çw/Çy)
@@ -195,9 +195,17 @@ END_FIELDSET
 
 FIELDSET
 	TEXTYPE = 5			# ÉeÉNÉXÉ`ÉÉÇÃéÌóﬁ
-	POS = 1000 100 455	# à íu
+	POS = 700 100 455	# à íu
 	ROT = 0 90 0		# å¸Ç´
-	BLOCK = 1 11		# ï™äÑêî(Çw/Çy)
+	BLOCK = 1 5		# ï™äÑêî(Çw/Çy)
+	SIZE = 80 100		# ëÂÇ´Ç≥(Çw/Çy)
+END_FIELDSET
+
+FIELDSET
+	TEXTYPE = 5			# ÉeÉNÉXÉ`ÉÉÇÃéÌóﬁ
+	POS = 1300 100 455	# à íu
+	ROT = 0 90 0		# å¸Ç´
+	BLOCK = 1 5		# ï™äÑêî(Çw/Çy)
 	SIZE = 80 100		# ëÂÇ´Ç≥(Çw/Çy)
 END_FIELDSET
 
@@ -227,9 +235,17 @@ END_FIELDSET
 
 FIELDSET
 	TEXTYPE = 5			# ÉeÉNÉXÉ`ÉÉÇÃéÌóﬁ
-	POS = 1000 100 -235	# à íu
+	POS = 700 100 -235	# à íu
 	ROT = 0 90 0		# å¸Ç´
-	BLOCK = 1 11		# ï™äÑêî(Çw/Çy)
+	BLOCK = 1 5		# ï™äÑêî(Çw/Çy)
+	SIZE = 80 100		# ëÂÇ´Ç≥(Çw/Çy)
+END_FIELDSET
+
+FIELDSET
+	TEXTYPE = 5			# ÉeÉNÉXÉ`ÉÉÇÃéÌóﬁ
+	POS = 1300 100 -235	# à íu
+	ROT = 0 90 0		# å¸Ç´
+	BLOCK = 1 5		# ï™äÑêî(Çw/Çy)
 	SIZE = 80 100		# ëÂÇ´Ç≥(Çw/Çy)
 END_FIELDSET
 
@@ -450,17 +466,40 @@ MODELSET
 	SHADOW = 0
 END_MODELSET
 
-#ä‘äu50Ç∏Ç¬Ç≈ï¿Ç◊ÇÈ
+#ä‘äuZ50Ç∏Ç¬Ç≈ï¿Ç◊ÇÈ
 
 MODELSET
 	TYPE = 4	# [4]çÚ
-	POS = 310 100 -600
+	POS = 310 100 -650
 	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 4	# [4]çÚ
+	POS = 340 100 -675
+	ROT = 0 90 0
+	SHADOW = 0
+END_MODELSET
+
+#ä‘äuX50Ç∏Ç¬Ç≈ï¿Ç◊ÇÈ
+
+MODELSET
+	TYPE = 4	# [4]çÚ
+	POS = 690 100 -675
+	ROT = 0 90 0
 	SHADOW = 0
 END_MODELSET
 #---------------------------------------
 
-#---äXìî------------------------------------
+#---äXìî0------------------------------------
+MODELSET
+	TYPE = 12	# [12]äXìî
+	POS = 330 100 800
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+
 MODELSET
 	TYPE = 12	# [12]äXìî
 	POS = 330 100 610
@@ -470,8 +509,615 @@ END_MODELSET
 
 MODELSET
 	TYPE = 12	# [12]äXìî
+	POS = 330 100 455
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 12	# [12]äXìî
+	POS = 330 100 300
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 12	# [12]äXìî
+	POS = 330 100 110
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 12	# [12]äXìî
+	POS = 330 100 -80
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 12	# [12]äXìî
+	POS = 330 100 -235
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 12	# [12]äXìî
+	POS = 330 100 -390
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 12	# [12]äXìî
+	POS = 330 100 -580
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+#---------------------------------------
+
+#---äXìî1------------------------------------
+MODELSET
+	TYPE = 12	# [12]äXìî
+	POS = 400 100 870
+	ROT = 0 90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 12	# [12]äXìî
+	POS = 400 100 -650
+	ROT = 0 90 0
+	SHADOW = 0
+END_MODELSET
+#---------------------------------------
+
+#---äXìî2------------------------------------
+MODELSET
+	TYPE = 12	# [12]äXìî
 	POS = 470 100 610
 	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 12	# [12]äXìî
+	POS = 470 100 300
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 12	# [12]äXìî
+	POS = 470 100 -80
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 12	# [12]äXìî
+	POS = 470 100 -390
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+#---------------------------------------
+
+#---äXìî3------------------------------------
+MODELSET
+	TYPE = 12	# [12]äXìî
+	POS = 610 100 870
+	ROT = 0 90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 12	# [12]äXìî
+	POS = 610 100 730
+	ROT = 0 90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 12	# [12]äXìî
+	POS = 610 100 490
+	ROT = 0 90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 12	# [12]äXìî
+	POS = 610 100 420
+	ROT = 0 90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 12	# [12]äXìî
+	POS = 610 100 180
+	ROT = 0 90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 12	# [12]äXìî
+	POS = 610 100 40
+	ROT = 0 90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 12	# [12]äXìî
+	POS = 610 100 -200
+	ROT = 0 90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 12	# [12]äXìî
+	POS = 610 100 -270
+	ROT = 0 90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 12	# [12]äXìî
+	POS = 610 100 -510
+	ROT = 0 90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 12	# [12]äXìî
+	POS = 610 100 -650
+	ROT = 0 90 0
+	SHADOW = 0
+END_MODELSET
+#---------------------------------------
+
+#---äXìî4------------------------------------
+MODELSET
+	TYPE = 12	# [12]äXìî
+	POS = 785 100 870
+	ROT = 0 90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 12	# [12]äXìî
+	POS = 785 100 730
+	ROT = 0 90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 12	# [12]äXìî
+	POS = 785 100 490
+	ROT = 0 90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 12	# [12]äXìî
+	POS = 785 100 420
+	ROT = 0 90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 12	# [12]äXìî
+	POS = 785 100 180
+	ROT = 0 90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 12	# [12]äXìî
+	POS = 785 100 40
+	ROT = 0 90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 12	# [12]äXìî
+	POS = 785 100 -200
+	ROT = 0 90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 12	# [12]äXìî
+	POS = 785 100 -270
+	ROT = 0 90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 12	# [12]äXìî
+	POS = 785 100 -510
+	ROT = 0 90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 12	# [12]äXìî
+	POS = 785 100 -650
+	ROT = 0 90 0
+	SHADOW = 0
+END_MODELSET
+#---------------------------------------
+
+#---äXìî5------------------------------------
+MODELSET
+	TYPE = 12	# [12]äXìî
+	POS = 930 100 610
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 12	# [12]äXìî
+	POS = 930 100 300
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 12	# [12]äXìî
+	POS = 930 100 -80
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 12	# [12]äXìî
+	POS = 930 100 -390
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+#---------------------------------------
+
+#---äXìî6------------------------------------
+MODELSET
+	TYPE = 12	# [12]äXìî
+	POS = 1000 100 870
+	ROT = 0 90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 12	# [12]äXìî
+	POS = 1000 100 -650
+	ROT = 0 90 0
+	SHADOW = 0
+END_MODELSET
+#---------------------------------------
+
+#---äXìî7------------------------------------
+MODELSET
+	TYPE = 12	# [12]äXìî
+	POS = 1070 100 610
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 12	# [12]äXìî
+	POS = 1070 100 300
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 12	# [12]äXìî
+	POS = 1070 100 -80
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 12	# [12]äXìî
+	POS = 1070 100 -390
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+#---------------------------------------
+
+#---äXìî8------------------------------------
+MODELSET
+	TYPE = 12	# [12]äXìî
+	POS = 1210 100 870
+	ROT = 0 90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 12	# [12]äXìî
+	POS = 1210 100 730
+	ROT = 0 90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 12	# [12]äXìî
+	POS = 1210 100 490
+	ROT = 0 90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 12	# [12]äXìî
+	POS = 1210 100 420
+	ROT = 0 90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 12	# [12]äXìî
+	POS = 1210 100 180
+	ROT = 0 90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 12	# [12]äXìî
+	POS = 1210 100 40
+	ROT = 0 90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 12	# [12]äXìî
+	POS = 1210 100 -200
+	ROT = 0 90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 12	# [12]äXìî
+	POS = 1210 100 -270
+	ROT = 0 90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 12	# [12]äXìî
+	POS = 1210 100 -510
+	ROT = 0 90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 12	# [12]äXìî
+	POS = 1210 100 -650
+	ROT = 0 90 0
+	SHADOW = 0
+END_MODELSET
+#---------------------------------------
+
+#---äXìî9------------------------------------
+MODELSET
+	TYPE = 12	# [12]äXìî
+	POS = 1385 100 870
+	ROT = 0 90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 12	# [12]äXìî
+	POS = 1385 100 730
+	ROT = 0 90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 12	# [12]äXìî
+	POS = 1385 100 490
+	ROT = 0 90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 12	# [12]äXìî
+	POS = 1385 100 420
+	ROT = 0 90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 12	# [12]äXìî
+	POS = 1385 100 180
+	ROT = 0 90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 12	# [12]äXìî
+	POS = 1385 100 40
+	ROT = 0 90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 12	# [12]äXìî
+	POS = 1385 100 -200
+	ROT = 0 90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 12	# [12]äXìî
+	POS = 1385 100 -270
+	ROT = 0 90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 12	# [12]äXìî
+	POS = 1385 100 -510
+	ROT = 0 90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 12	# [12]äXìî
+	POS = 1385 100 -650
+	ROT = 0 90 0
+	SHADOW = 0
+END_MODELSET
+#---------------------------------------
+
+#---äXìî10------------------------------------
+MODELSET
+	TYPE = 12	# [12]äXìî
+	POS = 1530 100 610
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 12	# [12]äXìî
+	POS = 1530 100 300
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 12	# [12]äXìî
+	POS = 1530 100 -80
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 12	# [12]äXìî
+	POS = 1530 100 -390
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+#---------------------------------------
+
+#---äXìî11------------------------------------
+#2å¬ÇÃÇ‚Ç¬
+#---------------------------------------
+
+#---äXìî12------------------------------------
+MODELSET
+	TYPE = 12	# [12]äXìî
+	POS = 1740 100 635
+	ROT = 0 90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 12	# [12]äXìî
+	POS = 1740 100 565
+	ROT = 0 90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 12	# [12]äXìî
+	POS = 1670 100 455
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 12	# [12]äXìî
+	POS = 1670 100 300
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 12	# [12]äXìî
+	POS = 1670 100 -80
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 12	# [12]äXìî
+	POS = 1670 100 -235
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 12	# [12]äXìî
+	POS = 1670 100 -390
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+#---------------------------------------
+
+#---äXìî13------------------------------------
+
+#---------------------------------------
+
+
+#---çLèÍ------------------------------------
+MODELSET
+	TYPE = 11	# [11]ï¨êÖ
+	POS = 1000 105 110
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 10	# [10]ÉxÉìÉ`
+	POS = 930 100 110
+	ROT = 0 -90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 10	# [10]ÉxÉìÉ`
+	POS = 1070 100 110
+	ROT = 0 90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 10	# [10]ÉxÉìÉ`
+	POS = 1000 100 180
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 10	# [10]ÉxÉìÉ`
+	POS = 1000 100 40
+	ROT = 0 180 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 4	# [4]çÚ
+	POS = 850 100 110
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 4	# [4]çÚ
+	POS = 1150 100 110
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 4	# [4]çÚ
+	POS = 1000 100 240
+	ROT = 0 90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 4	# [4]çÚ
+	POS = 1000 100 -20
+	ROT = 0 90 0
 	SHADOW = 0
 END_MODELSET
 #---------------------------------------
@@ -479,85 +1125,78 @@ END_MODELSET
 #---ã≥âÔãﬂÇ≠ÇÃâ∆------------------------------------
 MODELSET
 	TYPE = 16	# [16]â∆0
+	POS = 1770 100 250
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16	# [16]â∆0
+	POS = 1735 100 334
+	ROT = 0 90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 17	# [17]â∆1
+	POS = 1735 100 425
+	ROT = 0 90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16	# [16]â∆0
+	POS = 1805 100 334
+	ROT = 0 -90 0
+	SHADOW = 0
+END_MODELSET
+
+
+MODELSET
+	TYPE = 16	# [16]â∆0
 	POS = 2025 100 250
 	ROT = 0 0 0
 	SHADOW = 0
 END_MODELSET
-#---------------------------------------
 
-#---â∆------------------------------------
 MODELSET
 	TYPE = 16	# [16]â∆0
-	POS = 2025 100 -29
+	POS = 2060 100 334
+	ROT = 0 -90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 17	# [17]â∆1
+	POS = 2060 100 422
+	ROT = 0 -90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16	# [16]â∆0
+	POS = 1990 100 334
+	ROT = 0 90 0
+	SHADOW = 0
+END_MODELSET
+
+
+MODELSET
+	TYPE = 16	# [16]â∆0
+	POS = 1820 100 429
 	ROT = 0 180 0
 	SHADOW = 0
 END_MODELSET
 
 MODELSET
-	TYPE = 17	# [17]â∆1
-	POS = 1990 100 -83
-	ROT = 0 90 0
-	SHADOW = 0
-END_MODELSET
-
-MODELSET
 	TYPE = 16	# [16]â∆0
-	POS = 1990 100 -174
-	ROT = 0 90 0
-	SHADOW = 0
-END_MODELSET
-
-MODELSET
-	TYPE = 16	# [16]â∆0
-	POS = 1990 100 -297
-	ROT = 0 90 0
-	SHADOW = 0
-END_MODELSET
-
-MODELSET
-	TYPE = 17	# [17]â∆1
-	POS = 1990 100 -385
-	ROT = 0 90 0
-	SHADOW = 0
-END_MODELSET
-
-MODELSET
-	TYPE = 16	# [16]â∆0
-	POS = 2025 100 -441
-	ROT = 0 0 0
-	SHADOW = 0
-END_MODELSET
-
-MODELSET
-	TYPE = 17	# [17]â∆1
-	POS = 2060 100 -84
-	ROT = 0 -90 0
-	SHADOW = 0
-END_MODELSET
-
-MODELSET
-	TYPE = 16	# [16]â∆0
-	POS = 2060 100 -172
-	ROT = 0 -90 0
-	SHADOW = 0
-END_MODELSET
-
-MODELSET
-	TYPE = 16	# [16]â∆0
-	POS = 2060 100 -297
-	ROT = 0 -90 0
-	SHADOW = 0
-END_MODELSET
-
-MODELSET
-	TYPE = 17	# [17]â∆1
-	POS = 2060 100 -387
-	ROT = 0 -90 0
+	POS = 1975 100 429
+	ROT = 0 180 0
 	SHADOW = 0
 END_MODELSET
 #---------------------------------------
 
-#---â∆------------------------------------
+#---â∆1------------------------------------X600Z310ÇÃïœìÆ
 MODELSET
 	TYPE = 17	# [17]â∆1
 	POS = 525 100 670
@@ -741,67 +1380,1408 @@ MODELSET
 END_MODELSET
 #---------------------------------------
 
-#---çLèÍ------------------------------------
+#---â∆2------------------------------------
 MODELSET
-	TYPE = 11	# [11]ï¨êÖ
-	POS = 1000 103 110
-	ROT = 0 0 0
+	TYPE = 17	# [17]â∆1
+	POS = 1125 100 670
+	ROT = 0 90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 17	# [17]â∆1
+	POS = 1125 100 610
+	ROT = 0 90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 17	# [17]â∆1
+	POS = 1125 100 550
+	ROT = 0 90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 8	# [8]â‘íd
+	POS = 1090 100 680
+	ROT = 0 90 0
 	SHADOW = 0
 END_MODELSET
 
 MODELSET
 	TYPE = 10	# [10]ÉxÉìÉ`
-	POS = 930 100 110
+	POS = 1095 100 560
+	ROT = 0 90 0
+	SHADOW = 0
+END_MODELSET
+#--------------------------
+MODELSET
+	TYPE = 16	# [16]â∆0
+	POS = 1210 100 674
+	ROT = 0 180 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 17	# [17]â∆1
+	POS = 1298 100 675
+	ROT = 0 180 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16	# [16]â∆0
+	POS = 1385 100 674
+	ROT = 0 180 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 8	# [8]â‘íd
+	POS = 1116 100 710
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 8	# [8]â‘íd
+	POS = 1146 100 710
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 8	# [8]â‘íd
+	POS = 1310 100 710
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 8	# [8]â‘íd
+	POS = 1449 100 710
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 8	# [8]â‘íd
+	POS = 1479 100 710
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+#--------------------------
+MODELSET
+	TYPE = 16	# [16]â∆0
+	POS = 1210 100 544
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 17	# [17]â∆1
+	POS = 1295 100 543
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16	# [16]â∆0
+	POS = 1385 100 544
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 8	# [8]â‘íd
+	POS = 1116 100 508
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 8	# [8]â‘íd
+	POS = 1146 100 508
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 8	# [8]â‘íd
+	POS = 1285 100 508
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 8	# [8]â‘íd
+	POS = 1449 100 508
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 8	# [8]â‘íd
+	POS = 1479 100 508
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+#--------------------------
+MODELSET
+	TYPE = 17	# [17]â∆1
+	POS = 1470 100 668
+	ROT = 0 -90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 17	# [17]â∆1
+	POS = 1470 100 608
+	ROT = 0 -90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 17	# [17]â∆1
+	POS = 1470 100 548
+	ROT = 0 -90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 8	# [8]â‘íd
+	POS = 1505 100 540
 	ROT = 0 -90 0
 	SHADOW = 0
 END_MODELSET
 
 MODELSET
 	TYPE = 10	# [10]ÉxÉìÉ`
-	POS = 1070 100 110
+	POS = 1500 100 660
+	ROT = 0 -90 0
+	SHADOW = 0
+END_MODELSET
+#---------------------------------------
+
+#---â∆3------------------------------------
+MODELSET
+	TYPE = 17	# [17]â∆1
+	POS = 525 100 360
+	ROT = 0 90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 17	# [17]â∆1
+	POS = 525 100 300
+	ROT = 0 90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 17	# [17]â∆1
+	POS = 525 100 240
+	ROT = 0 90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 8	# [8]â‘íd
+	POS = 490 100 370
 	ROT = 0 90 0
 	SHADOW = 0
 END_MODELSET
 
 MODELSET
 	TYPE = 10	# [10]ÉxÉìÉ`
-	POS = 1000 100 180
-	ROT = 0 0 0
+	POS = 495 100 250
+	ROT = 0 90 0
 	SHADOW = 0
 END_MODELSET
-
+#--------------------------
 MODELSET
-	TYPE = 10	# [10]ÉxÉìÉ`
-	POS = 1000 100 40
+	TYPE = 16	# [16]â∆0
+	POS = 610 100 364
 	ROT = 0 180 0
 	SHADOW = 0
 END_MODELSET
 
 MODELSET
-	TYPE = 4	# [4]çÚ
-	POS = 850 100 110
+	TYPE = 17	# [17]â∆1
+	POS = 698 100 365
+	ROT = 0 180 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16	# [16]â∆0
+	POS = 785 100 364
+	ROT = 0 180 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 8	# [8]â‘íd
+	POS = 516 100 400
 	ROT = 0 0 0
 	SHADOW = 0
 END_MODELSET
 
 MODELSET
-	TYPE = 4	# [4]çÚ
-	POS = 1150 100 110
+	TYPE = 8	# [8]â‘íd
+	POS = 546 100 400
 	ROT = 0 0 0
 	SHADOW = 0
 END_MODELSET
 
 MODELSET
-	TYPE = 4	# [4]çÚ
-	POS = 1000 100 240
+	TYPE = 8	# [8]â‘íd
+	POS = 710 100 400
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 8	# [8]â‘íd
+	POS = 849 100 400
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 8	# [8]â‘íd
+	POS = 879 100 400
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+#--------------------------
+MODELSET
+	TYPE = 16	# [16]â∆0
+	POS = 610 100 234
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 17	# [17]â∆1
+	POS = 695 100 233
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16	# [16]â∆0
+	POS = 785 100 234
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 8	# [8]â‘íd
+	POS = 516 100 198
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 8	# [8]â‘íd
+	POS = 546 100 198
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 8	# [8]â‘íd
+	POS = 685 100 198
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 8	# [8]â‘íd
+	POS = 849 100 198
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 8	# [8]â‘íd
+	POS = 879 100 198
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+#--------------------------
+MODELSET
+	TYPE = 17	# [17]â∆1
+	POS = 870 100 358
+	ROT = 0 -90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 17	# [17]â∆1
+	POS = 870 100 298
+	ROT = 0 -90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 17	# [17]â∆1
+	POS = 870 100 232
+	ROT = 0 -90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 8	# [8]â‘íd
+	POS = 905 100 230
+	ROT = 0 -90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 10	# [10]ÉxÉìÉ`
+	POS = 900 100 350
+	ROT = 0 -90 0
+	SHADOW = 0
+END_MODELSET
+#---------------------------------------
+
+#---â∆4------------------------------------
+MODELSET
+	TYPE = 17	# [17]â∆1
+	POS = 1125 100 360
 	ROT = 0 90 0
 	SHADOW = 0
 END_MODELSET
 
 MODELSET
-	TYPE = 4	# [4]çÚ
-	POS = 1000 100 -20
+	TYPE = 17	# [17]â∆1
+	POS = 1125 100 300
 	ROT = 0 90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 17	# [17]â∆1
+	POS = 1125 100 240
+	ROT = 0 90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 8	# [8]â‘íd
+	POS = 1090 100 370
+	ROT = 0 90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 10	# [10]ÉxÉìÉ`
+	POS = 1095 100 250
+	ROT = 0 90 0
+	SHADOW = 0
+END_MODELSET
+#--------------------------
+MODELSET
+	TYPE = 16	# [16]â∆0
+	POS = 1210 100 364
+	ROT = 0 180 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 17	# [17]â∆1
+	POS = 1298 100 365
+	ROT = 0 180 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16	# [16]â∆0
+	POS = 1385 100 364
+	ROT = 0 180 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 8	# [8]â‘íd
+	POS = 1116 100 400
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 8	# [8]â‘íd
+	POS = 1146 100 400
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 8	# [8]â‘íd
+	POS = 1310 100 400
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 8	# [8]â‘íd
+	POS = 1449 100 400
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 8	# [8]â‘íd
+	POS = 1479 100 400
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+#--------------------------
+MODELSET
+	TYPE = 16	# [16]â∆0
+	POS = 1210 100 234
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 17	# [17]â∆1
+	POS = 1295 100 233
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16	# [16]â∆0
+	POS = 1385 100 234
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 8	# [8]â‘íd
+	POS = 1116 100 198
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 8	# [8]â‘íd
+	POS = 1146 100 198
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 8	# [8]â‘íd
+	POS = 1285 100 198
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 8	# [8]â‘íd
+	POS = 1449 100 198
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 8	# [8]â‘íd
+	POS = 1479 100 198
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+#--------------------------
+MODELSET
+	TYPE = 17	# [17]â∆1
+	POS = 1470 100 358
+	ROT = 0 -90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 17	# [17]â∆1
+	POS = 1470 100 298
+	ROT = 0 -90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 17	# [17]â∆1
+	POS = 1470 100 238
+	ROT = 0 -90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 8	# [8]â‘íd
+	POS = 1505 100 230
+	ROT = 0 -90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 10	# [10]ÉxÉìÉ`
+	POS = 1500 100 350
+	ROT = 0 -90 0
+	SHADOW = 0
+END_MODELSET
+#---------------------------------------
+
+
+
+#---â∆5------------------------------------Z690ÇÃïœìÆ
+MODELSET
+	TYPE = 17	# [17]â∆1
+	POS = 525 100 -20
+	ROT = 0 90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 17	# [17]â∆1
+	POS = 525 100 -80
+	ROT = 0 90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 17	# [17]â∆1
+	POS = 525 100 -140
+	ROT = 0 90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 8	# [8]â‘íd
+	POS = 490 100 -10
+	ROT = 0 90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 10	# [10]ÉxÉìÉ`
+	POS = 495 100 -130
+	ROT = 0 90 0
+	SHADOW = 0
+END_MODELSET
+#--------------------------
+MODELSET
+	TYPE = 16	# [16]â∆0
+	POS = 610 100 -16
+	ROT = 0 180 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 17	# [17]â∆1
+	POS = 698 100 -15
+	ROT = 0 180 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16	# [16]â∆0
+	POS = 785 100 -16
+	ROT = 0 180 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 8	# [8]â‘íd
+	POS = 516 100 20
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 8	# [8]â‘íd
+	POS = 546 100 20
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 8	# [8]â‘íd
+	POS = 710 100 20
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 8	# [8]â‘íd
+	POS = 849 100 20
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 8	# [8]â‘íd
+	POS = 879 100 20
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+#--------------------------
+MODELSET
+	TYPE = 16	# [16]â∆0
+	POS = 610 100 -146
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 17	# [17]â∆1
+	POS = 695 100 -147
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16	# [16]â∆0
+	POS = 785 100 -146
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 8	# [8]â‘íd
+	POS = 516 100 -182
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 8	# [8]â‘íd
+	POS = 546 100 -182
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 8	# [8]â‘íd
+	POS = 685 100 -182
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 8	# [8]â‘íd
+	POS = 849 100 -182
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 8	# [8]â‘íd
+	POS = 879 100 -182
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+#--------------------------
+MODELSET
+	TYPE = 17	# [17]â∆1
+	POS = 870 100 -22
+	ROT = 0 -90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 17	# [17]â∆1
+	POS = 870 100 -82
+	ROT = 0 -90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 17	# [17]â∆1
+	POS = 870 100 -142
+	ROT = 0 -90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 8	# [8]â‘íd
+	POS = 905 100 -150
+	ROT = 0 -90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 10	# [10]ÉxÉìÉ`
+	POS = 900 100 -30
+	ROT = 0 -90 0
+	SHADOW = 0
+END_MODELSET
+#---------------------------------------
+
+#---â∆6------------------------------------
+MODELSET
+	TYPE = 17	# [17]â∆1
+	POS = 1125 100 -20
+	ROT = 0 90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 17	# [17]â∆1
+	POS = 1125 100 -80
+	ROT = 0 90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 17	# [17]â∆1
+	POS = 1125 100 -140
+	ROT = 0 90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 8	# [8]â‘íd
+	POS = 1090 100 -10
+	ROT = 0 90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 10	# [10]ÉxÉìÉ`
+	POS = 1095 100 -130
+	ROT = 0 90 0
+	SHADOW = 0
+END_MODELSET
+#--------------------------
+MODELSET
+	TYPE = 16	# [16]â∆0
+	POS = 1210 100 -16
+	ROT = 0 180 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 17	# [17]â∆1
+	POS = 1298 100 -15
+	ROT = 0 180 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16	# [16]â∆0
+	POS = 1385 100 -16
+	ROT = 0 180 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 8	# [8]â‘íd
+	POS = 1116 100 20
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 8	# [8]â‘íd
+	POS = 1146 100 20
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 8	# [8]â‘íd
+	POS = 1310 100 20
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 8	# [8]â‘íd
+	POS = 1449 100 20
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 8	# [8]â‘íd
+	POS = 1479 100 20
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+#--------------------------
+MODELSET
+	TYPE = 16	# [16]â∆0
+	POS = 1210 100 -146
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 17	# [17]â∆1
+	POS = 1295 100 -147
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16	# [16]â∆0
+	POS = 1385 100 -146
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 8	# [8]â‘íd
+	POS = 1116 100 -182
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 8	# [8]â‘íd
+	POS = 1146 100 -182
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 8	# [8]â‘íd
+	POS = 1285 100 -182
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 8	# [8]â‘íd
+	POS = 1449 100 -182
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 8	# [8]â‘íd
+	POS = 1479 100 -182
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+#--------------------------
+MODELSET
+	TYPE = 17	# [17]â∆1
+	POS = 1470 100 -22
+	ROT = 0 -90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 17	# [17]â∆1
+	POS = 1470 100 -82
+	ROT = 0 -90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 17	# [17]â∆1
+	POS = 1470 100 -142
+	ROT = 0 -90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 8	# [8]â‘íd
+	POS = 1505 100 -150
+	ROT = 0 -90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 10	# [10]ÉxÉìÉ`
+	POS = 1500 100 -30
+	ROT = 0 -90 0
+	SHADOW = 0
+END_MODELSET
+#---------------------------------------
+
+#---â∆7------------------------------------
+MODELSET
+	TYPE = 17	# [17]â∆1
+	POS = 525 100 -330
+	ROT = 0 90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 17	# [17]â∆1
+	POS = 525 100 -390
+	ROT = 0 90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 17	# [17]â∆1
+	POS = 525 100 -450
+	ROT = 0 90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 8	# [8]â‘íd
+	POS = 490 100 -320
+	ROT = 0 90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 10	# [10]ÉxÉìÉ`
+	POS = 495 100 -440
+	ROT = 0 90 0
+	SHADOW = 0
+END_MODELSET
+#--------------------------
+MODELSET
+	TYPE = 16	# [16]â∆0
+	POS = 610 100 -326
+	ROT = 0 180 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 17	# [17]â∆1
+	POS = 698 100 -325
+	ROT = 0 180 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16	# [16]â∆0
+	POS = 785 100 -326
+	ROT = 0 180 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 8	# [8]â‘íd
+	POS = 516 100 -290
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 8	# [8]â‘íd
+	POS = 546 100 -290
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 8	# [8]â‘íd
+	POS = 710 100 -290
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 8	# [8]â‘íd
+	POS = 849 100 -290
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 8	# [8]â‘íd
+	POS = 879 100 -290
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+#--------------------------
+MODELSET
+	TYPE = 16	# [16]â∆0
+	POS = 610 100 -456
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 17	# [17]â∆1
+	POS = 695 100 -457
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16	# [16]â∆0
+	POS = 785 100 -456
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 8	# [8]â‘íd
+	POS = 516 100 -492
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 8	# [8]â‘íd
+	POS = 546 100 -492
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 8	# [8]â‘íd
+	POS = 685 100 -492
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 8	# [8]â‘íd
+	POS = 849 100 -492
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 8	# [8]â‘íd
+	POS = 879 100 -492
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+#--------------------------
+MODELSET
+	TYPE = 17	# [17]â∆1
+	POS = 870 100 -332
+	ROT = 0 -90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 17	# [17]â∆1
+	POS = 870 100 -392
+	ROT = 0 -90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 17	# [17]â∆1
+	POS = 870 100 -458
+	ROT = 0 -90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 8	# [8]â‘íd
+	POS = 905 100 -460
+	ROT = 0 -90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 10	# [10]ÉxÉìÉ`
+	POS = 900 100 -340
+	ROT = 0 -90 0
+	SHADOW = 0
+END_MODELSET
+#---------------------------------------
+
+#---â∆8------------------------------------
+MODELSET
+	TYPE = 17	# [17]â∆1
+	POS = 1125 100 -330
+	ROT = 0 90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 17	# [17]â∆1
+	POS = 1125 100 -390
+	ROT = 0 90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 17	# [17]â∆1
+	POS = 1125 100 -390
+	ROT = 0 -90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 17	# [17]â∆1
+	POS = 1125 100 -450
+	ROT = 0 90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 8	# [8]â‘íd
+	POS = 1090 100 -320
+	ROT = 0 90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 10	# [10]ÉxÉìÉ`
+	POS = 1095 100 -440
+	ROT = 0 90 0
+	SHADOW = 0
+END_MODELSET
+#--------------------------
+MODELSET
+	TYPE = 16	# [16]â∆0
+	POS = 1210 100 -326
+	ROT = 0 180 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16	# [16]â∆0
+	POS = 1210 100 -326
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 17	# [17]â∆1
+	POS = 1298 100 -325
+	ROT = 0 180 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16	# [16]â∆0
+	POS = 1385 100 -326
+	ROT = 0 180 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 8	# [8]â‘íd
+	POS = 1116 100 -290
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 8	# [8]â‘íd
+	POS = 1146 100 -290
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 8	# [8]â‘íd
+	POS = 1310 100 -290
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 8	# [8]â‘íd
+	POS = 1456 100 -325
+	ROT = 0 90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 10	# [10]ÉxÉìÉ`
+	POS = 1480 100 -325
+	ROT = 0 180 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 10	# [10]ÉxÉìÉ`
+	POS = 1500 100 -325
+	ROT = 0 180 0
+	SHADOW = 0
+END_MODELSET
+#--------------------------
+MODELSET
+	TYPE = 16	# [16]â∆0
+	POS = 1210 100 -456
+	ROT = 0 180 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16	# [16]â∆0
+	POS = 1210 100 -456
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16	# [16]â∆0
+	POS = 1294 100 -421
+	ROT = 0 -90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 8	# [8]â‘íd
+	POS = 1116 100 -492
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 8	# [8]â‘íd
+	POS = 1146 100 -492
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 8	# [8]â‘íd
+	POS = 1285 100 -492
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+#---------------------------------------
+
+#---â∆9------------------------------------X255
+MODELSET
+	TYPE = 16	# [16]â∆0
+	POS = 1770 100 -29
+	ROT = 0 180 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 17	# [17]â∆1
+	POS = 1735 100 -83
+	ROT = 0 90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16	# [16]â∆0
+	POS = 1735 100 -174
+	ROT = 0 90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16	# [16]â∆0
+	POS = 1735 100 -297
+	ROT = 0 90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 17	# [17]â∆1
+	POS = 1735 100 -385
+	ROT = 0 90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16	# [16]â∆0
+	POS = 1770 100 -441
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 17	# [17]â∆1
+	POS = 1805 100 -84
+	ROT = 0 -90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16	# [16]â∆0
+	POS = 1805 100 -172
+	ROT = 0 -90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16	# [16]â∆0
+	POS = 1805 100 -297
+	ROT = 0 -90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 17	# [17]â∆1
+	POS = 1805 100 -387
+	ROT = 0 -90 0
+	SHADOW = 0
+END_MODELSET
+#---------------------------------------
+
+#---â∆10------------------------------------
+MODELSET
+	TYPE = 16	# [16]â∆0
+	POS = 2025 100 -29
+	ROT = 0 180 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 17	# [17]â∆1
+	POS = 1990 100 -83
+	ROT = 0 90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16	# [16]â∆0
+	POS = 1990 100 -174
+	ROT = 0 90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16	# [16]â∆0
+	POS = 1990 100 -297
+	ROT = 0 90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 17	# [17]â∆1
+	POS = 1990 100 -385
+	ROT = 0 90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16	# [16]â∆0
+	POS = 2025 100 -441
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 17	# [17]â∆1
+	POS = 2060 100 -84
+	ROT = 0 -90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16	# [16]â∆0
+	POS = 2060 100 -172
+	ROT = 0 -90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16	# [16]â∆0
+	POS = 2060 100 -297
+	ROT = 0 -90 0
+	SHADOW = 0
+END_MODELSET
+
+MODELSET
+	TYPE = 17	# [17]â∆1
+	POS = 2060 100 -387
+	ROT = 0 -90 0
 	SHADOW = 0
 END_MODELSET
 #---------------------------------------
