@@ -37,18 +37,17 @@ MODEL_FILENAME = data/MODEL/Building/Station.x			# [3]駅
 MODEL_FILENAME = data/MODEL/Building/port/fence.x		# [4]柵
 MODEL_FILENAME = data/MODEL/Building/port/sanbashi.x	# [5]桟橋
 MODEL_FILENAME = data/MODEL/Building/port/tomariba.x	# [6]とまり場
-MODEL_FILENAME = data/MODEL/Building//Bridge.x			# [7]橋
-MODEL_FILENAME = data/MODEL/Building//Flowerbed.x		# [8]花壇
-MODEL_FILENAME = data/MODEL/Objects//Airship.x			# [9]飛行船
-MODEL_FILENAME = data/MODEL/Building//Benchi.x			# [10]ベンチ
-MODEL_FILENAME = data/MODEL/Building//Fountaini.x		# [11]噴水
-MODEL_FILENAME = data/MODEL/Building//Streetlight.x		# [12]街頭
-MODEL_FILENAME = data/MODEL/Building//factory.x			# [13]工場
-MODEL_FILENAME = data/MODEL/Building//Box.x				# [14]仮
-MODEL_FILENAME = data/MODEL/Building//shop.x			# [15]便利屋(仮)
+MODEL_FILENAME = data/MODEL/Building/Bridge.x			# [7]橋
+MODEL_FILENAME = data/MODEL/Building/Flowerbed.x		# [8]花壇
+MODEL_FILENAME = data/MODEL/Objects/Airship.x			# [9]飛行船
+MODEL_FILENAME = data/MODEL/Building/Bench.x			# [10]ベンチ
+MODEL_FILENAME = data/MODEL/Building/Fountaini.x		# [11]噴水
+MODEL_FILENAME = data/MODEL/Building/Streetlight.x		# [12]街頭
+MODEL_FILENAME = data/MODEL/Building/factory.x			# [13]工場
+MODEL_FILENAME = data/MODEL/Building/Box.x				# [14]仮
+MODEL_FILENAME = data/MODEL/Building/shop.x			# [15]便利屋(仮)
 MODEL_FILENAME = data/MODEL/Building/Building_0.x		# [16]家_0
 MODEL_FILENAME = data/MODEL/Building/Building_1.x		# [17]家_1
-MODEL_FILENAME = data/MODEL/99_allbody.x				# [18]キャラ
 
 #------------------------------------------------------------------------------
 # カメラ情報
@@ -109,6 +108,89 @@ END_FIELDSET
 #--------------------------------------
 # 歩道
 #--------------------------------------
+#---細道-----------------------------------
+FIELDSET
+	TEXTYPE = 5			# テクスチャの種類
+	POS = 1200 0 625	# 位置
+	ROT = 0 0 0			# 向き
+	BLOCK = 1 5		# 分割数(Ｘ/Ｚ)
+	SIZE = 25 100		# 大きさ(Ｘ/Ｚ)
+END_FIELDSET
+
+FIELDSET
+	TEXTYPE = 5			# テクスチャの種類
+	POS = 1360 0 387.5	# 位置
+	ROT = 0 90 0			# 向き
+	BLOCK = 1 3		# 分割数(Ｘ/Ｚ)
+	SIZE = 25 100		# 大きさ(Ｘ/Ｚ)
+END_FIELDSET
+
+FIELDSET
+	TEXTYPE = 5			# テクスチャの種類
+	POS = 1490 0 100	# 位置
+	ROT = 0 0 0			# 向き
+	BLOCK = 1 6		# 分割数(Ｘ/Ｚ)
+	SIZE = 50 100		# 大きさ(Ｘ/Ｚ)
+END_FIELDSET
+
+
+FIELDSET
+	TEXTYPE = 5			# テクスチャの種類
+	POS = 2000 0 625	# 位置
+	ROT = 0 0 0			# 向き
+	BLOCK = 1 5		# 分割数(Ｘ/Ｚ)
+	SIZE = 25 100		# 大きさ(Ｘ/Ｚ)
+END_FIELDSET
+
+FIELDSET
+	TEXTYPE = 5			# テクスチャの種類
+	POS = 1840 0 387.5	# 位置
+	ROT = 0 90 0			# 向き
+	BLOCK = 1 3		# 分割数(Ｘ/Ｚ)
+	SIZE = 25 100		# 大きさ(Ｘ/Ｚ)
+END_FIELDSET
+
+FIELDSET
+	TEXTYPE = 5			# テクスチャの種類
+	POS = 1700 0 300	# 位置
+	ROT = 0 0 0			# 向き
+	BLOCK = 1 6		# 分割数(Ｘ/Ｚ)
+	SIZE = 25 100		# 大きさ(Ｘ/Ｚ)
+END_FIELDSET
+
+FIELDSET
+	TEXTYPE = 5			# テクスチャの種類
+	POS = 1362.5 0 600	# 位置
+	ROT = 0 90 0			# 向き
+	BLOCK = 1 7		# 分割数(Ｘ/Ｚ)
+	SIZE = 25 100		# 大きさ(Ｘ/Ｚ)
+END_FIELDSET
+
+
+FIELDSET
+	TEXTYPE = 5			# テクスチャの種類
+	POS = 900 0 -150	# 位置
+	ROT = 0 0 0			# 向き
+	BLOCK = 1 3		# 分割数(Ｘ/Ｚ)
+	SIZE = 25 100		# 大きさ(Ｘ/Ｚ)
+END_FIELDSET
+
+FIELDSET
+	TEXTYPE = 5			# テクスチャの種類
+	POS = 1050 0 -12.5	# 位置
+	ROT = 0 90 0			# 向き
+	BLOCK = 1 3		# 分割数(Ｘ/Ｚ)
+	SIZE = 25 100		# 大きさ(Ｘ/Ｚ)
+END_FIELDSET
+
+FIELDSET
+	TEXTYPE = 5			# テクスチャの種類
+	POS = 1200 0 -150	# 位置
+	ROT = 0 0 0			# 向き
+	BLOCK = 1 3		# 分割数(Ｘ/Ｚ)
+	SIZE = 25 100		# 大きさ(Ｘ/Ｚ)
+END_FIELDSET
+
 #---縦-----------------------------------
 FIELDSET
 	TEXTYPE = 5			# テクスチャの種類
@@ -131,6 +213,22 @@ FIELDSET
 	POS = -700 0 250	# 位置
 	ROT = 0 0 0			# 向き
 	BLOCK = 1 14		# 分割数(Ｘ/Ｚ)
+	SIZE = 50 100		# 大きさ(Ｘ/Ｚ)
+END_FIELDSET
+
+FIELDSET
+	TEXTYPE = 5			# テクスチャの種類
+	POS = -300 0 400	# 位置
+	ROT = 0 0 0			# 向き
+	BLOCK = 1 10		# 分割数(Ｘ/Ｚ)
+	SIZE = 50 100		# 大きさ(Ｘ/Ｚ)
+END_FIELDSET
+
+FIELDSET
+	TEXTYPE = 5			# テクスチャの種類
+	POS = 100 0 500	# 位置
+	ROT = 0 0 0			# 向き
+	BLOCK = 1 7		# 分割数(Ｘ/Ｚ)
 	SIZE = 50 100		# 大きさ(Ｘ/Ｚ)
 END_FIELDSET
 
@@ -195,6 +293,22 @@ END_FIELDSET
 
 FIELDSET
 	TEXTYPE = 5			# テクスチャの種類
+	POS = -100 0 400		# 位置
+	ROT = 0 90 0		# 向き
+	BLOCK = 1 4		# 分割数(Ｘ/Ｚ)
+	SIZE = 50 100		# 大きさ(Ｘ/Ｚ)
+END_FIELDSET
+
+FIELDSET
+	TEXTYPE = 5			# テクスチャの種類
+	POS = -925 0 -100		# 位置
+	ROT = 0 90 0		# 向き
+	BLOCK = 1 13		# 分割数(Ｘ/Ｚ)
+	SIZE = 50 100		# 大きさ(Ｘ/Ｚ)
+END_FIELDSET
+
+FIELDSET
+	TEXTYPE = 5			# テクスチャの種類
 	POS = 225 0 -375	# 位置
 	ROT = 0 90 0		# 向き
 	BLOCK = 1 36		# 分割数(Ｘ/Ｚ)
@@ -211,11 +325,45 @@ END_FIELDSET
 
 FIELDSET
 	TEXTYPE = 5			# テクスチャの種類
+	POS = 1725 0 -800	# 位置
+	ROT = 0 90 0		# 向き
+	BLOCK = 1 4		# 分割数(Ｘ/Ｚ)
+	SIZE = 100 100		# 大きさ(Ｘ/Ｚ)
+END_FIELDSET
+
+FIELDSET
+	TEXTYPE = 5			# テクスチャの種類
+	POS = 1725 0 -1200	# 位置
+	ROT = 0 90 0		# 向き
+	BLOCK = 1 4		# 分割数(Ｘ/Ｚ)
+	SIZE = 100 100		# 大きさ(Ｘ/Ｚ)
+END_FIELDSET
+
+FIELDSET
+	TEXTYPE = 5			# テクスチャの種類
 	POS = 570 0 -1350	# 位置
 	ROT = 0 90 0		# 向き
 	BLOCK = 1 17		# 分割数(Ｘ/Ｚ)
 	SIZE = 100 100		# 大きさ(Ｘ/Ｚ)
 END_FIELDSET
+
+#---斜め-----------------------------------
+FIELDSET
+	TEXTYPE = 5			# テクスチャの種類
+	POS = 150 0 200	# 位置
+	ROT = 0 45 0		# 向き
+	BLOCK = 1 10		# 分割数(Ｘ/Ｚ)
+	SIZE = 100 100		# 大きさ(Ｘ/Ｚ)
+END_FIELDSET
+
+FIELDSET
+	TEXTYPE = 5			# テクスチャの種類
+	POS = -725 0 150	# 位置
+	ROT = 0 -60 0		# 向き
+	BLOCK = 1 20		# 分割数(Ｘ/Ｚ)
+	SIZE = 100 100		# 大きさ(Ｘ/Ｚ)
+END_FIELDSET
+
 
 #--------------------------------------
 # 海
@@ -274,12 +422,12 @@ END_MODELSET
 #END_MODELSET
 #------------------------------------------------------------------------------
 
-#MODELSET
-#	TYPE = 1	# [1]教会
-#	POS = 1900 0 600
-#	ROT = 0 90 0
-#	SHADOW = 0
-#END_MODELSET
+MODELSET
+	TYPE = 1	# [1]教会
+	POS = 700 0 600
+	ROT = 0 90 0
+	SHADOW = 0
+END_MODELSET
 
 
 MODELSET
@@ -299,14 +447,6 @@ END_MODELSET
 
 
 MODELSET
-	TYPE = 18	# [18]キャラ
-	POS = 470 0 550
-	ROT = 0 0 0
-	SHADOW = 0
-END_MODELSET
-
-
-MODELSET
 	TYPE = 7	# [7]橋
 	POS = -2300 -100 -1000
 	ROT = 0 0 0
@@ -314,28 +454,12 @@ MODELSET
 END_MODELSET
 
 
-#---便利屋------------------------------------
-#MODELSET
-#	TYPE = 15	# [15]便利屋
-#	POS = 1450 0 -425
-#	ROT = 0 0 0
-#	SHADOW = 0
-#END_MODELSET
-
-#MODELSET
-#	TYPE = 10	# [10]ベンチ
-#	POS = 1500 0 -480
-#	ROT = 0 0 0
-#	SHADOW = 0
-#END_MODELSET
-
-#MODELSET
-#	TYPE = 10	# [10]ベンチ
-#	POS = 1515 0 -480
-#	ROT = 0 0 0
-#	SHADOW = 0
-#END_MODELSET
-#---------------------------------------
+MODELSET
+	TYPE = 15	# [15]便利屋
+	POS = -600 0 -200
+	ROT = 0 0 0
+	SHADOW = 0
+END_MODELSET
 
 #---柵------------------------------------
 MODELSET
