@@ -1,0 +1,1205 @@
+#==============================================
+#
+# ModelSeconds [model_mozu2.txt]
+# Author : 
+#
+#==============================================
+
+SCRIPT		# この行は消さないでね！
+
+#------------------------------------------------------------------------------
+# テクスチャ数
+#------------------------------------------------------------------------------
+NUM_TEXTURE = 7
+
+#------------------------------------------------------------------------------
+# テクスチャファイル名
+#------------------------------------------------------------------------------
+TEXTURE_FILENAME = data/TEXTURE/sky003.jpg
+TEXTURE_FILENAME = data/TEXTURE/mountain000.png
+TEXTURE_FILENAME = data/TEXTURE/field101.jpg
+TEXTURE_FILENAME = data/TEXTURE/river000.jpg
+TEXTURE_FILENAME = data/TEXTURE/wall003.jpg
+TEXTURE_FILENAME = data/TEXTURE/road.jpg
+TEXTURE_FILENAME = data/TEXTURE/road_mid.jpg
+
+#------------------------------------------------------------------------------
+# モデル数
+#------------------------------------------------------------------------------
+NUM_MODEL = 19
+
+#------------------------------------------------------------------------------
+# モデルファイル名
+#------------------------------------------------------------------------------
+MODEL_FILENAME = data/MODEL/Terrain/Terrain.x
+MODEL_FILENAME = data/MODEL/Building/Church.x
+MODEL_FILENAME = data/MODEL/Building/ClockTower.x
+MODEL_FILENAME = data/MODEL/Building/Station.x
+MODEL_FILENAME = data/MODEL/Building/port/fence.x
+MODEL_FILENAME = data/MODEL/Building/port/sanbashi.x
+MODEL_FILENAME = data/MODEL/Building/port/tomariba.x
+MODEL_FILENAME = data/MODEL/Building/Bridge.x
+MODEL_FILENAME = data/MODEL/Building/Flowerbed.x
+MODEL_FILENAME = data/MODEL/Objects/Airship.x
+MODEL_FILENAME = data/MODEL/Building/Bench.x
+MODEL_FILENAME = data/MODEL/Building/Fountaini.x
+MODEL_FILENAME = data/MODEL/Building/Streetlight.x
+MODEL_FILENAME = data/MODEL/Building/factory.x
+MODEL_FILENAME = data/MODEL/Building/Box.x
+MODEL_FILENAME = data/MODEL/Building/shop.x
+MODEL_FILENAME = data/MODEL/Building/Building_0.x
+MODEL_FILENAME = data/MODEL/Building/Building_1.x
+MODEL_FILENAME = 
+
+#------------------------------------------------------------------------------
+# フィールド数
+#------------------------------------------------------------------------------
+NUM_FIELD = 33
+
+#------------------------------------------------------------------------------
+# 地面配置情報
+#------------------------------------------------------------------------------
+
+FIELDSET
+	TEXTYPE = 2		# テクスチャの種類
+	POS = 300.0 0.0 -300.0	# 位置
+	ROT = 0 0 0			# 向き
+	BLOCK = 20 13	# 分割数(X / Z)
+	SIZE = 200 200	# 大きさ(X / Z)
+END_FIELDSET
+
+FIELDSET
+	TEXTYPE = 5		# テクスチャの種類
+	POS = 1200.0 0.0 625.0	# 位置
+	ROT = 0 0 0			# 向き
+	BLOCK = 1 5	# 分割数(X / Z)
+	SIZE = 25 100	# 大きさ(X / Z)
+END_FIELDSET
+
+FIELDSET
+	TEXTYPE = 5		# テクスチャの種類
+	POS = 1360.0 0.0 387.5	# 位置
+	ROT = 0 90 0			# 向き
+	BLOCK = 1 3	# 分割数(X / Z)
+	SIZE = 25 100	# 大きさ(X / Z)
+END_FIELDSET
+
+FIELDSET
+	TEXTYPE = 5		# テクスチャの種類
+	POS = 1490.0 0.0 100.0	# 位置
+	ROT = 0 0 0			# 向き
+	BLOCK = 1 6	# 分割数(X / Z)
+	SIZE = 50 100	# 大きさ(X / Z)
+END_FIELDSET
+
+FIELDSET
+	TEXTYPE = 5		# テクスチャの種類
+	POS = 2000.0 0.0 625.0	# 位置
+	ROT = 0 0 0			# 向き
+	BLOCK = 1 5	# 分割数(X / Z)
+	SIZE = 25 100	# 大きさ(X / Z)
+END_FIELDSET
+
+FIELDSET
+	TEXTYPE = 5		# テクスチャの種類
+	POS = 1840.0 0.0 387.5	# 位置
+	ROT = 0 90 0			# 向き
+	BLOCK = 1 3	# 分割数(X / Z)
+	SIZE = 25 100	# 大きさ(X / Z)
+END_FIELDSET
+
+FIELDSET
+	TEXTYPE = 5		# テクスチャの種類
+	POS = 1700.0 0.0 300.0	# 位置
+	ROT = 0 0 0			# 向き
+	BLOCK = 1 6	# 分割数(X / Z)
+	SIZE = 25 100	# 大きさ(X / Z)
+END_FIELDSET
+
+FIELDSET
+	TEXTYPE = 5		# テクスチャの種類
+	POS = 1362.5 0.0 600.0	# 位置
+	ROT = 0 90 0			# 向き
+	BLOCK = 1 7	# 分割数(X / Z)
+	SIZE = 25 100	# 大きさ(X / Z)
+END_FIELDSET
+
+FIELDSET
+	TEXTYPE = 5		# テクスチャの種類
+	POS = 900.0 0.0 -150.0	# 位置
+	ROT = 0 0 0			# 向き
+	BLOCK = 1 3	# 分割数(X / Z)
+	SIZE = 25 100	# 大きさ(X / Z)
+END_FIELDSET
+
+FIELDSET
+	TEXTYPE = 5		# テクスチャの種類
+	POS = 1050.0 0.0 -12.5	# 位置
+	ROT = 0 90 0			# 向き
+	BLOCK = 1 3	# 分割数(X / Z)
+	SIZE = 25 100	# 大きさ(X / Z)
+END_FIELDSET
+
+FIELDSET
+	TEXTYPE = 5		# テクスチャの種類
+	POS = 1200.0 0.0 -150.0	# 位置
+	ROT = 0 0 0			# 向き
+	BLOCK = 1 3	# 分割数(X / Z)
+	SIZE = 25 100	# 大きさ(X / Z)
+END_FIELDSET
+
+FIELDSET
+	TEXTYPE = 5		# テクスチャの種類
+	POS = -1160.0 0.0 250.0	# 位置
+	ROT = 0 0 0			# 向き
+	BLOCK = 1 14	# 分割数(X / Z)
+	SIZE = 50 100	# 大きさ(X / Z)
+END_FIELDSET
+
+FIELDSET
+	TEXTYPE = 5		# テクスチャの種類
+	POS = -700.0 0.0 250.0	# 位置
+	ROT = 0 0 0			# 向き
+	BLOCK = 1 14	# 分割数(X / Z)
+	SIZE = 50 100	# 大きさ(X / Z)
+END_FIELDSET
+
+FIELDSET
+	TEXTYPE = 5		# テクスチャの種類
+	POS = -300.0 0.0 400.0	# 位置
+	ROT = 0 0 0			# 向き
+	BLOCK = 1 10	# 分割数(X / Z)
+	SIZE = 50 100	# 大きさ(X / Z)
+END_FIELDSET
+
+FIELDSET
+	TEXTYPE = 5		# テクスチャの種類
+	POS = 100.0 0.0 500.0	# 位置
+	ROT = 0 0 0			# 向き
+	BLOCK = 1 7	# 分割数(X / Z)
+	SIZE = 50 100	# 大きさ(X / Z)
+END_FIELDSET
+
+FIELDSET
+	TEXTYPE = 5		# テクスチャの種類
+	POS = -350.0 0.0 -1000.0	# 位置
+	ROT = 0 0 0			# 向き
+	BLOCK = 1 12	# 分割数(X / Z)
+	SIZE = 150 100	# 大きさ(X / Z)
+END_FIELDSET
+
+FIELDSET
+	TEXTYPE = 5		# テクスチャの種類
+	POS = 75.0 0.0 -1000.0	# 位置
+	ROT = 0 0 0			# 向き
+	BLOCK = 1 12	# 分割数(X / Z)
+	SIZE = 70 100	# 大きさ(X / Z)
+END_FIELDSET
+
+FIELDSET
+	TEXTYPE = 5		# テクスチャの種類
+	POS = 500.0 0.0 -1000.0	# 位置
+	ROT = 0 0 0			# 向き
+	BLOCK = 1 12	# 分割数(X / Z)
+	SIZE = 150 100	# 大きさ(X / Z)
+END_FIELDSET
+
+FIELDSET
+	TEXTYPE = 5		# テクスチャの種類
+	POS = 1490.0 0.0 -1000.0	# 位置
+	ROT = 0 0 0			# 向き
+	BLOCK = 1 12	# 分割数(X / Z)
+	SIZE = 150 100	# 大きさ(X / Z)
+END_FIELDSET
+
+FIELDSET
+	TEXTYPE = 5		# テクスチャの種類
+	POS = 1950.0 0.0 -1000.0	# 位置
+	ROT = 0 0 0			# 向き
+	BLOCK = 1 12	# 分割数(X / Z)
+	SIZE = 150 100	# 大きさ(X / Z)
+END_FIELDSET
+
+FIELDSET
+	TEXTYPE = 5		# テクスチャの種類
+	POS = 375.0 0.0 900.0	# 位置
+	ROT = 0 90 0			# 向き
+	BLOCK = 1 39	# 分割数(X / Z)
+	SIZE = 100 100	# 大きさ(X / Z)
+END_FIELDSET
+
+FIELDSET
+	TEXTYPE = 5		# テクスチャの種類
+	POS = -100.0 0.0 400.0	# 位置
+	ROT = 0 90 0			# 向き
+	BLOCK = 1 4	# 分割数(X / Z)
+	SIZE = 50 100	# 大きさ(X / Z)
+END_FIELDSET
+
+FIELDSET
+	TEXTYPE = 5		# テクスチャの種類
+	POS = -925.0 0.0 -100.0	# 位置
+	ROT = 0 90 0			# 向き
+	BLOCK = 1 13	# 分割数(X / Z)
+	SIZE = 50 100	# 大きさ(X / Z)
+END_FIELDSET
+
+FIELDSET
+	TEXTYPE = 5		# テクスチャの種類
+	POS = 570.0 0.0 -650.0	# 位置
+	ROT = 0 90 0			# 向き
+	BLOCK = 1 17	# 分割数(X / Z)
+	SIZE = 100 100	# 大きさ(X / Z)
+END_FIELDSET
+
+FIELDSET
+	TEXTYPE = 5		# テクスチャの種類
+	POS = 1725.0 0.0 -800.0	# 位置
+	ROT = 0 90 0			# 向き
+	BLOCK = 1 4	# 分割数(X / Z)
+	SIZE = 100 100	# 大きさ(X / Z)
+END_FIELDSET
+
+FIELDSET
+	TEXTYPE = 5		# テクスチャの種類
+	POS = 1725.0 0.0 -1200.0	# 位置
+	ROT = 0 90 0			# 向き
+	BLOCK = 1 4	# 分割数(X / Z)
+	SIZE = 100 100	# 大きさ(X / Z)
+END_FIELDSET
+
+FIELDSET
+	TEXTYPE = 5		# テクスチャの種類
+	POS = 570.0 0.0 -1350.0	# 位置
+	ROT = 0 90 0			# 向き
+	BLOCK = 1 17	# 分割数(X / Z)
+	SIZE = 100 100	# 大きさ(X / Z)
+END_FIELDSET
+
+FIELDSET
+	TEXTYPE = 5		# テクスチャの種類
+	POS = 150.0 0.0 200.0	# 位置
+	ROT = 0 45 0			# 向き
+	BLOCK = 1 10	# 分割数(X / Z)
+	SIZE = 100 100	# 大きさ(X / Z)
+END_FIELDSET
+
+FIELDSET
+	TEXTYPE = 5		# テクスチャの種類
+	POS = -729.0 0.0 154.0	# 位置
+	ROT = 0 -60 0			# 向き
+	BLOCK = 1 20	# 分割数(X / Z)
+	SIZE = 100 100	# 大きさ(X / Z)
+END_FIELDSET
+
+FIELDSET
+	TEXTYPE = 5		# テクスチャの種類
+	POS = -1620.0 0.0 250.0	# 位置
+	ROT = 0 0 0			# 向き
+	BLOCK = 1 14	# 分割数(X / Z)
+	SIZE = 100 100	# 大きさ(X / Z)
+END_FIELDSET
+
+FIELDSET
+	TEXTYPE = 5		# テクスチャの種類
+	POS = 500.0 0.0 250.0	# 位置
+	ROT = 0 0 0			# 向き
+	BLOCK = 1 14	# 分割数(X / Z)
+	SIZE = 150 100	# 大きさ(X / Z)
+END_FIELDSET
+
+FIELDSET
+	TEXTYPE = 5		# テクスチャの種類
+	POS = 225.0 0.0 -375.0	# 位置
+	ROT = 0 90 0			# 向き
+	BLOCK = 1 36	# 分割数(X / Z)
+	SIZE = 150 100	# 大きさ(X / Z)
+END_FIELDSET
+
+FIELDSET
+	TEXTYPE = 3		# テクスチャの種類
+	POS = 0.0 -100.0 200.0	# 位置
+	ROT = 0 0 0			# 向き
+	BLOCK = 46 36	# 分割数(X / Z)
+	SIZE = 100 100	# 大きさ(X / Z)
+END_FIELDSET
+
+
+#------------------------------------------------------------------------------
+# モデル配置情報
+#------------------------------------------------------------------------------
+
+MODELSET
+	TYPE = 1
+	POS = 700.0 0.0 600.0
+	ROT = 0 90 0
+END_MODELSET
+
+MODELSET
+	TYPE = 2
+	POS = 1000.0 0.0 -1000.0
+	ROT = 0 0 0
+END_MODELSET
+
+MODELSET
+	TYPE = 3
+	POS = -1000.0 0.0 -1000.0
+	ROT = 0 -90 0
+END_MODELSET
+
+MODELSET
+	TYPE = 7
+	POS = -2300.0 -100.0 -1000.0
+	ROT = 0 0 0
+END_MODELSET
+
+MODELSET
+	TYPE = 15
+	POS = -600.0 0.0 -200.0
+	ROT = 0 0 0
+END_MODELSET
+
+MODELSET
+	TYPE = 4
+	POS = -1680.0 0.0 850.0
+	ROT = 0 0 0
+END_MODELSET
+
+MODELSET
+	TYPE = 4
+	POS = -1680.0 0.0 -650.0
+	ROT = 0 0 0
+END_MODELSET
+
+MODELSET
+	TYPE = 4
+	POS = -1630.0 0.0 -675.0
+	ROT = 0 90 0
+END_MODELSET
+
+MODELSET
+	TYPE = 4
+	POS = -1300.0 0.0 -675.0
+	ROT = 0 90 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = -1540.0 0.0 775.0
+	ROT = 0 90 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = -1455.0 0.0 815.0
+	ROT = 0 -180 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = -1335.0 0.0 815.0
+	ROT = 0 -180 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = -1225.0 0.0 775.0
+	ROT = 0 -90 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = -1225.0 0.0 655.0
+	ROT = 0 -90 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = -1257.0 0.0 557.0
+	ROT = 0 30 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = -1361.0 0.0 616.0
+	ROT = 0 30 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = -1465.0 0.0 675.0
+	ROT = 0 30 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = -1090.0 0.0 535.0
+	ROT = 0 90 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = -1090.0 0.0 655.0
+	ROT = 0 90 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = -1090.0 0.0 775.0
+	ROT = 0 90 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = -1055.0 0.0 815.0
+	ROT = 0 -180 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = -935.0 0.0 815.0
+	ROT = 0 -180 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = -815.0 0.0 765.0
+	ROT = 0 -135 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = -765.0 0.0 646.0
+	ROT = 0 -90 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = -765.0 0.0 526.0
+	ROT = 0 -90 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = -765.0 0.0 387.0
+	ROT = 0 -90 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = -807.0 0.0 307.0
+	ROT = 0 30 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = -911.0 0.0 366.0
+	ROT = 0 30 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = -1015.0 0.0 425.0
+	ROT = 0 30 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = -850.0 0.0 420.0
+	ROT = 0 -180 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = -635.0 0.0 291.0
+	ROT = 0 90 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = -631.0 0.0 411.0
+	ROT = 0 90 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = -628.0 0.0 531.0
+	ROT = 0 90 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = -625.0 0.0 650.0
+	ROT = 0 90 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = -622.0 0.0 769.0
+	ROT = 0 90 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = -536.0 0.0 801.0
+	ROT = 0 -176 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = -405.0 0.0 816.0
+	ROT = -5 176 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = -365.0 0.0 742.0
+	ROT = 0 -90 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = -362.0 0.0 623.0
+	ROT = 0 -90 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = -358.0 0.0 502.0
+	ROT = 0 -90 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = -355.0 0.0 383.0
+	ROT = 0 -90 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = -353.0 0.0 267.0
+	ROT = 0 -90 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = -350.0 0.0 151.0
+	ROT = 0 -90 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = -397.0 0.0 56.0
+	ROT = 0 30 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = -502.0 0.0 117.0
+	ROT = 0 30 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = -605.0 0.0 180.0
+	ROT = 0 30 0
+END_MODELSET
+
+
+
+
+
+
+
+
+
+MODELSET
+	TYPE = 16
+	POS = 1775.0 0.0 428.0
+	ROT = 0 0 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = 1918.0 0.0 428.0
+	ROT = 0 0 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = 1918.0 0.0 805.0
+	ROT = 0 0 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = 1797.0 0.0 805.0
+	ROT = 0 0 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = 1676.0 0.0 805.0
+	ROT = 0 0 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = 1557.0 0.0 805.0
+	ROT = 0 0 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = 1438.0 0.0 805.0
+	ROT = 0 0 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = 1320.0 0.0 805.0
+	ROT = 0 0 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = 1320.0 0.0 641.0
+	ROT = 0 0 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = 1440.0 0.0 641.0
+	ROT = 0 0 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = 1559.0 0.0 641.0
+	ROT = 0 0 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = 1679.0 0.0 641.0
+	ROT = 0 0 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = 1959.0 0.0 629.0
+	ROT = 0 90 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = 1960.0 0.0 508.0
+	ROT = 0 90 0
+END_MODELSET
+
+MODELSET
+	TYPE = 17
+	POS = 1759.0 0.0 484.0
+	ROT = 0 90 0
+END_MODELSET
+
+MODELSET
+	TYPE = 17
+	POS = 1760.0 0.0 544.0
+	ROT = 0 90 0
+END_MODELSET
+
+MODELSET
+	TYPE = 17
+	POS = 1756.0 0.0 604.0
+	ROT = 0 90 0
+END_MODELSET
+
+MODELSET
+	TYPE = 17
+	POS = 1969.0 0.0 708.0
+	ROT = 0 -90 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = 2072.0 0.0 806.0
+	ROT = 0 0 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = 2192.0 0.0 806.0
+	ROT = 0 0 0
+END_MODELSET
+
+MODELSET
+	TYPE = 17
+	POS = 2279.0 0.0 806.0
+	ROT = 0 0 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = 1773.0 0.0 350.0
+	ROT = 0 0 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = 1893.0 0.0 350.0
+	ROT = 0 0 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = 2012.0 0.0 350.0
+	ROT = 0 0 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = 1275.0 0.0 -259.0
+	ROT = 0 0 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = 1395.0 0.0 -259.0
+	ROT = 0 0 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = 1587.0 0.0 -259.0
+	ROT = 0 0 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = 1706.0 0.0 -259.0
+	ROT = 0 0 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = 1826.0 0.0 -259.0
+	ROT = 0 0 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = 1945.0 0.0 -259.0
+	ROT = 0 0 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = 2064.0 0.0 -259.0
+	ROT = 0 0 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = 1155.0 0.0 29.0
+	ROT = 0 0 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = 1036.0 0.0 29.0
+	ROT = 0 0 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = 916.0 0.0 29.0
+	ROT = 0 0 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = 825.0 0.0 -258.0
+	ROT = 0 0 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = 705.0 0.0 -258.0
+	ROT = 0 0 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = 1240.0 0.0 -175.0
+	ROT = 0 90 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = 1240.0 0.0 -56.0
+	ROT = 0 90 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = 860.0 0.0 -173.0
+	ROT = 0 -90 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = 860.0 0.0 -54.0
+	ROT = 0 -90 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = 1440.0 0.0 -174.0
+	ROT = 0 -90 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = 1438.0 0.0 -56.0
+	ROT = 0 -90 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = 1438.0 0.0 64.0
+	ROT = 0 -90 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = 1438.0 0.0 184.0
+	ROT = 0 -90 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = 1438.0 0.0 304.0
+	ROT = 0 -90 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = 1546.0 0.0 304.0
+	ROT = 0 90 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = 1546.0 0.0 183.0
+	ROT = 0 90 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = 1546.0 0.0 64.0
+	ROT = 0 90 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = 1546.0 0.0 -55.0
+	ROT = 0 90 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = 1546.0 0.0 -174.0
+	ROT = 0 90 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = 1737.0 0.0 265.0
+	ROT = 0 90 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = 1737.0 0.0 146.0
+	ROT = 0 90 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = 1737.0 0.0 26.0
+	ROT = 0 90 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = 1658.0 0.0 515.0
+	ROT = 0 -90 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = 1658.0 0.0 395.0
+	ROT = 0 -90 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = 1658.0 0.0 275.0
+	ROT = 0 -90 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = 1658.0 0.0 155.0
+	ROT = 0 -90 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = 1658.0 0.0 35.0
+	ROT = 0 -90 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = 1573.0 0.0 550.0
+	ROT = 0 -180 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = 1453.0 0.0 550.0
+	ROT = 0 -180 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = 1332.0 0.0 550.0
+	ROT = 0 -180 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = 1247.0 0.0 515.0
+	ROT = 0 90 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = 1281.0 0.0 430.0
+	ROT = 0 0 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = 1401.0 0.0 430.0
+	ROT = 0 0 0
+END_MODELSET
+
+MODELSET
+	TYPE = 17
+	POS = 1489.0 0.0 430.0
+	ROT = 0 0 0
+END_MODELSET
+
+MODELSET
+	TYPE = 17
+	POS = 1538.0 0.0 395.0
+	ROT = 0 90 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = 1247.0 0.0 676.0
+	ROT = 0 90 0
+END_MODELSET
+
+MODELSET
+	TYPE = 17
+	POS = 1247.0 0.0 762.0
+	ROT = 0 90 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = 2043.0 0.0 436.0
+	ROT = 0 90 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = 2043.0 0.0 556.0
+	ROT = 0 90 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = 2043.0 0.0 676.0
+	ROT = 0 90 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = 1117.0 0.0 805.0
+	ROT = 0 -180 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = 997.0 0.0 805.0
+	ROT = 0 -180 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = 877.0 0.0 805.0
+	ROT = 0 -180 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = 757.0 0.0 805.0
+	ROT = 0 -180 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = 637.0 0.0 805.0
+	ROT = 0 -180 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = 637.0 0.0 755.0
+	ROT = 0 0 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = 757.0 0.0 755.0
+	ROT = 0 0 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = 877.0 0.0 755.0
+	ROT = 0 0 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = 620.0 0.0 -223.0
+	ROT = 0 90 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = 620.0 0.0 -103.0
+	ROT = 0 90 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = 620.0 0.0 17.0
+	ROT = 0 90 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = 620.0 0.0 137.0
+	ROT = 0 90 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = 620.0 0.0 257.0
+	ROT = 0 90 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = 620.0 0.0 377.0
+	ROT = 0 90 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = 705.0 0.0 412.0
+	ROT = 0 -180 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = 825.0 0.0 412.0
+	ROT = 0 -180 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = 910.0 0.0 497.0
+	ROT = 0 90 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = 908.0 0.0 670.0
+	ROT = 0 90 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = 1152.0 0.0 720.0
+	ROT = 0 -90 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = 997.0 0.0 644.0
+	ROT = 0 0 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = 1117.0 0.0 644.0
+	ROT = 0 0 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = 995.0 0.0 502.0
+	ROT = 0 -180 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = 1067.0 0.0 553.0
+	ROT = 0 -180 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = 1152.0 0.0 518.0
+	ROT = 0 -90 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = 1152.0 0.0 398.0
+	ROT = 0 -90 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = 1353.0 0.0 339.0
+	ROT = 0 -180 0
+END_MODELSET
+
+MODELSET
+	TYPE = 16
+	POS = 1233.0 0.0 339.0
+	ROT = 0 -180 0
+END_MODELSET
+
+
+END_SCRIPT		# この行は消さないでね！
