@@ -4,8 +4,8 @@ Format Text Ver 1.0
 Scene {
 	pos -76.3424 2.7712 2400.0000
 	lookat 0.0000 0.0000 0.0000
-	head -2.6736
-	pich 0.3708
+	head 0.0364
+	pich 0.3408
 	bank 0.0000
 	ortho 0
 	zoom2 3.1250
@@ -22,7 +22,7 @@ Material 5 {
 	"mat2" col(0.000 0.000 0.000 1.000) dif(0.800) amb(0.600) emi(0.000) spc(0.000) power(5.00)
 	"mat3" col(0.757 0.549 0.239 1.000) dif(0.800) amb(0.600) emi(0.000) spc(0.000) power(5.00)
 	"mat4" col(0.439 0.439 0.439 1.000) dif(0.800) amb(0.600) emi(0.000) spc(0.000) power(5.00)
-	"mat5" col(1.000 1.000 1.000 1.000) dif(0.800) amb(0.600) emi(0.000) spc(0.000) power(5.00) tex("C:\Users\student\OneDrive - yoshida-g.ac.jp\デスクトップ\gold.jpg")
+	"mat5" col(1.000 1.000 1.000 1.000) dif(0.800) amb(0.600) emi(0.000) spc(0.000) power(5.00) tex("C:\Users\student\OneDrive - yoshida-g.ac.jp\デスクトップ\新しいフォルダー\data\TEXTURE\gold.jpg")
 }
 Object "台" {
 	visible 15
